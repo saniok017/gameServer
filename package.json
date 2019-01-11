@@ -6,10 +6,10 @@
   "scripts": {
     "lint": "eslint -c .eslintrc.js ./src/**/*.js",
     "fix-lint": "eslint -c .eslintrc.js ./src/**/*.js --fix",
-    "start": "webpack-dev-server --open --watch",
+    "start": "node src/index.js",
     "build": "webpack",
     "test": "jest",
-    "serv": "nodemon index.js"
+    "serv": "nodemon src/index.js"
   },
   "author": "saniok017",
   "license": "ISC",
