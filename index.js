@@ -9,7 +9,7 @@ let db = null;
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('./src/public'));
+app.use(express.static('./public'));
 app.use(bodyParser.json());
 app.use(cors());
 

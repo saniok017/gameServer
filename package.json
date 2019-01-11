@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --open --watch",
     "build": "webpack",
     "test": "jest",
-    "serv": "nodemon src/index.js"
+    "serv": "nodemon index.js"
   },
   "author": "saniok017",
   "license": "ISC",
